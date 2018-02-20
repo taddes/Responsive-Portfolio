@@ -208,59 +208,44 @@ form {
 }
 
 
-/* Media for screen width of 640 px */
+/* Media for screen width of 980 */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 980px) {
+
 
 .wrapper {
     width: 100%;
 }
 
 .menu {
-    width:640px;
-    margin-bottom: 40px;
+    width:100%;
+    float: left;
     text-align: center;
 }
 
 .header {
-    position: static;
-    width:100%;
     text-align: center;
+    float: left;
+    width:25%;
+    margin-right: 300px;
 }
 
 .about {
-    width:33.33%;
+    float: left;
 }
 
 .portfolio {
-    width:33.33%;
+    float: left;
 }
+
 .contact {
-    width:33.33%;
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    width:60px;
 }
 
-.content {
-    width: 100%;
-}
-
-.sectionContent {
-    width:100%;
-}
-
-.aboutTitle {
-    text-align: center;
-}
-.sidebar {
-    width: 580px;
-    margin-bottom: 20px;
-}
-
-.portPic {
-    padding-left: 50%;
-} 
-
-} 
-
+}  
 
 /* Media for screen width of 768 */ 
 @media screen and (max-width: 768px) {
@@ -321,43 +306,60 @@ form {
 
 }  
 
+    
+    
+/* Media for screen width of 640 px */
 
-/* Media for screen width of 980 */
+@media screen and (max-width: 640px) {
 
-@media screen and (max-width: 980px) {
+.wrapper {
+    width: 100%;
+}
+
+.menu {
+    width:640px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.header {
+    position: static;
+    width:100%;
+    text-align: center;
+}
+
+.about {
+    width:33.33%;
+}
+
+.portfolio {
+    width:33.33%;
+}
+.contact {
+    width:33.33%;
+}
+
+.content {
+    width: 100%;
+}
+
+.sectionContent {
+    width:100%;
+}
+
+.aboutTitle {
+    text-align: center;
+}
+.sidebar {
+    width: 580px;
+    margin-bottom: 20px;
+}
+
+.portPic {
+    padding-left: 50%;
+} 
+
+} 
 
 
-    .wrapper {
-        width: 100%;
-    }
-    
-    .menu {
-        width:100%;
-        float: left;
-        text-align: center;
-    }
-    
-    .header {
-        text-align: center;
-        float: left;
-        width:25%;
-        margin-right: 300px;
-    }
-    
-    .about {
-        float: left;
-    }
-    
-    .portfolio {
-        float: left;
-    }
-    
-    .contact {
-        float: left;
-        padding-left: 0px;
-        padding-right: 0px;
-        width:60px;
-    }
-    
-    }  
-    
+
